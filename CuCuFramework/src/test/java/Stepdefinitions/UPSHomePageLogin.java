@@ -40,6 +40,7 @@ public class UPSHomePageLogin {
 		if(driver.findElement(By.linkText("Log in")).isDisplayed()) {
 			driver.findElement(By.linkText("Log in")).click();
 		} else { //DOARegisterLink
+			System.out.println("not displayed");
 			driver.findElement(By.id("DOARegisterLink")).click();
 		}
 			
